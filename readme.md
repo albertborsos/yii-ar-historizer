@@ -26,8 +26,9 @@ Installation steps
 
 How To Use
 ==========
-Modify your model's ActiveRecord class `beforeSave()` and `beforeDelete()` methods
-If the new attributes are different from the old's one, it saves the old model's attributes automatically
+In your model's class modify the `beforeSave()` and `beforeDelete()` methods
+If the new attributes are different from the old one, it saves the old model's attributes automatically.
+If save happened the historize() methods return value is true, else false.
 
 ```
 public function beforeSave(){
