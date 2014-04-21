@@ -3,10 +3,10 @@ Yii Model Historizer
 
 Simple extension to log your models change history. Independent from your models table structure, because it stores the attributes in one field in JSON format.
 
-Installation
-============
+Installation steps
+==================
 
-Via composer:
+1.) Via composer:
 
 ```
     "require":{
@@ -14,7 +14,9 @@ Via composer:
     }
 ```
 
-Then, add this line to your protected/config/main.php
+2.) Create the table for the histories by the initialize schema in `datas` folder
+
+3.) Then, add this line to your protected/config/main.php
 
 ```
     'import' => array(
