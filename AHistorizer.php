@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This is the model class for table "a_model_histories".
+ * This is the model class for table "ext_tbl_ahistorizer_histories".
  *
  * The followings are the available columns in table 'a_model_histories':
  * @property string $id
