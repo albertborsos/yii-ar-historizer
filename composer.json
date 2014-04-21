@@ -1,0 +1,7 @@
+{
+    "name": "albertborsos/historizer",
+    "description": "log your model's histories indepently from your model's table structure",
+    "keywords": ["yii", "activerecord", "log", "historizer", "historize"],
+    "type": "yii-extension",
+    "licence": "BSD-3-Clause",
+}
